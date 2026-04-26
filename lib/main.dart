@@ -73,7 +73,7 @@ class _DevelopmentHubScreenState extends State<DevelopmentHubScreen> {
       body: ScrollConfiguration(
         behavior: const ScrollBehavior().copyWith(overscroll: false),
         child: SingleChildScrollView(
-          physics: const ClampingScrollPhysics(),
+          physics: const ClampingScrollPhysics(), // Menjaga agar scroll tidak melar
           padding: const EdgeInsets.all(20.0),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
